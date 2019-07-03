@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
     spec.license      = 'MIT'
     spec.author             = { "Manjunath Shivakumara" => "manjunath.shivakumara@nxp.com" }
     spec.platform     = :ios, "12.0"
-    spec.source       = {:path => '.'}
+    spec.source       = {:path => 'https://github.com/ManjunathShiv/MyKnobPodspec.git', :tag =>"#{spec.version}
     spec.source_files  = "MyKnob/*.swift"
     spec.swift_version = "4.2"
 

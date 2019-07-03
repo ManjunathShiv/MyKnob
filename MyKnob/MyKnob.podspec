@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
     spec.author             = { "Manjunath Shivakumara" => "manjunath.shivakumara@nxp.com" }
     spec.platform     = :ios, "12.0"
     spec.source       = {:path => '.'}
-    spec.source_files  = "MyKnob/MyKnob/MyKnob/*.swift"
+    spec.source_files  = "MyKnob/*.swift"
     spec.swift_version = "4.2"
 
   end

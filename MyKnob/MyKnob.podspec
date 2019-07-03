@@ -7,7 +7,6 @@
 #
 
 Pod::Spec.new do |spec|
-  Pod::Spec.new do |spec|
 
     spec.name         = "MyKnob"
     spec.version      = "1.0.0"
@@ -20,7 +19,5 @@ Pod::Spec.new do |spec|
     spec.source       = {:path => '.'}
     spec.source_files  = "MyKnob/*.swift"
     spec.swift_version = "4.2"
-
-  end
 
 end
